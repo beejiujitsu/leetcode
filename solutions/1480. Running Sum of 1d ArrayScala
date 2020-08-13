@@ -1,5 +1,8 @@
+import scala.annotation.tailrec
+​
 object Solution {
     def runningSum(nums: Array[Int]): Array[Int] = {
+        @tailrec
         def inner(result: Array[Int], left: Array[Int]): Array[Int] = {
             if (left.isEmpty) {
                 result
