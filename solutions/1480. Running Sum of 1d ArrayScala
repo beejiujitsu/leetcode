@@ -1,0 +1,13 @@
+object Solution {
+    def runningSum(nums: Array[Int]): Array[Int] = {
+        def inner(result: Array[Int], left: Array[Int]): Array[Int] = {
+            if (left.isEmpty) {
+                result
+            }
+            else {
+                inner(result ++ left.headOption.toArray, left.slice(0, left.length))
+            }
+        }
+        inner(Array.empty[Int], nums)
+    }
+}
