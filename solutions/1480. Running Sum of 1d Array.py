@@ -1,9 +1,13 @@
-from contextlib import suppress
-​
-​
 class Solution:
     def runningSum(self, nums: List[int]) -> List[int]:
-        sums = []
-        for n in nums:
-            sums.append((sums[-1] + n if sums else n))
-        return sums
+        
+        def inner(sums: List[int], left: List[int]) -> List[int]:
+            if not left:
+                return sums
+​
+            if sums:
+                return inner(sums + [sums[-1] + left[0]], left[1:])
+​
+            return inner([left[0]], left[1:])
+        
+        return inner([], nums)
