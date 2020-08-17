@@ -2,6 +2,7 @@
 
 | # | Title | Solution | Runtime |
 |---| ----- | -------- | ------- |
+|195|[ Tenth Line](https://leetcode.com/problems/tenth-line/)|[Bash](./solutions/195.%20Tenth%20Line.%24%7Blang.toLowerCase()%7D)|4 ms|
 |771|[ Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[Python3](./solutions/771.%20Jewels%20and%20Stones.py)|20 ms|
 |1165|[ Single-Row Keyboard](https://leetcode.com/problems/single-row-keyboard/)|[Python3](./solutions/1165.%20Single-Row%20Keyboard.py)|52 ms|
 |1365|[ How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)|[Python3](./solutions/1365.%20How%20Many%20Numbers%20Are%20Smaller%20Than%20the%20Current%20Number.py)|336 ms|
