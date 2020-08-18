@@ -1,5 +1,3 @@
-from itertools import chain
-​
 class Solution:
     def anagramMappings(self, A: List[int], B: List[int]) -> List[int]:
         def b_index(i: int) -> int:
