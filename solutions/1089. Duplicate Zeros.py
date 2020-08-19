@@ -8,10 +8,9 @@ class Solution:
         while i <= o:
             if 0 not in arr:
                 break
-            if i <= o:
-                if arr[i] == 0:
-                    arr.insert(i, 0)
-                    i += 1
+            if arr[i] == 0:
+                arr.insert(i, 0)
                 i += 1
+            i += 1
         while len(arr) > o:
             arr.pop()
