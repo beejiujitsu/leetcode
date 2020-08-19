@@ -7,7 +7,7 @@ class Solution:
         def inner() -> List[int]:
             d = defaultdict(list)
             while nums: 
-                for m in range(1, n + 1):
+                for m in range(n):
                     d[m].append(nums.pop(0))
             return list(chain.from_iterable(d.values()))
         return inner()
