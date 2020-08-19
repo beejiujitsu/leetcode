@@ -4,15 +4,14 @@ class Solution:
         Do not return anything, modify arr in-place instead.
         """
         o = len(arr)
-        def inner(i: int) -> None:
+        i = 0
+        while i <= o:
             if 0 not in arr:
-                return
+                break
             if i <= o:
                 if arr[i] == 0:
                     arr.insert(i, 0)
-                    return inner(i + 2)
-                else:
-                    return inner(i + 1)
-        inner(0)
+                    i += 1
+                i += 1
         while len(arr) > o:
             arr.pop()
