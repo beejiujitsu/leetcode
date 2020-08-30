@@ -3,7 +3,6 @@ class Solution:
         left = collections.deque(nums)
         total = collections.deque()
         while left:
-            num = left.pop()
-            total.append(len([n for n in nums[::-1] if n < num]))
-        total.reverse()
+            num = left.popleft()
+            total.append(len([n for n in nums if n < num]))
         return total
