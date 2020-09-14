@@ -2,6 +2,7 @@
 
 | # | Title | Solution | Runtime |
 |---| ----- | -------- | ------- |
+|35|[ Search Insert Position](https://leetcode.com/problems/search-insert-position/)|[Python3](./solutions/35.%20Search%20Insert%20Position.py)|100 ms|
 |195|[ Tenth Line](https://leetcode.com/problems/tenth-line/)|[Bash](./solutions/195.%20Tenth%20Line.bash)|4 ms|
 |771|[ Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[Python3](./solutions/771.%20Jewels%20and%20Stones.py)|20 ms|
 |1165|[ Single-Row Keyboard](https://leetcode.com/problems/single-row-keyboard/)|[Python3](./solutions/1165.%20Single-Row%20Keyboard.py)|52 ms|
